@@ -2,11 +2,11 @@ import Image from "next/image";
 import qiratlinkdin from '../../public/qiratlinkdin.jpg'
 export default function Home() {
   return (
-    <main >
+    <main className="bg-black h-screen text-red-200">
       <title>Qirat Saeed</title>
 
       {/* Navbar Section */}
-      <div className=" flex justify-evenly border-2 bg-slate-400 h-[50px] w[100%] ">
+      <div className=" flex justify-evenly  bg-gray-900 h-[50px] w[100%] ">
         <span className="text-2xl mt-1  hover:text-white">Qirat Saeed</span>
         <a href="#" className="text-lg mt-2 hover:text-blue-900 underline" >Home</a>
         <a href="#" className="text-lg mt-2  hover:text-blue-900 underline">Contact Us</a>
