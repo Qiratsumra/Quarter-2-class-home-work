@@ -1,5 +1,6 @@
 import Image from "next/image";
 import qiratlinkdin from '../../public/qiratlinkdin.jpg'
+import GitHub from '../../public/GitHub-logo.png';
 export default function Home() {
   return (
     <main className="bg-black h-screen text-red-200">
@@ -35,6 +36,9 @@ export default function Home() {
         </p>
         <Image src={qiratlinkdin} alt="image" height={200} width={400} className="mr-20 mt-9"/>
        </div> 
+
+       
+      
     </main>
   )
 } 
